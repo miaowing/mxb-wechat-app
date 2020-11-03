@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="container" xmlns:wx="">
+    <avatar src="{{meta.avatar.publicUrl}}"></avatar>
+    <banner type="normal" title="{{banner.title}}" content="{{banner.content}}"></banner>
+</view>

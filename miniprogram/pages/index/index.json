@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "avatar": "../../components/avatar/avatar",
+    "banner": "../../components/banner/banner",
+    "gallery": "../../components/gallery/gallery"
+  }
+}

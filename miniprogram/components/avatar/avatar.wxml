@@ -1,0 +1,7 @@
+<view class="header">
+    <image class="avatar" src="{{src}}" mode="cover" bindtap="onTap"></image>
+    <view class="nav">
+        <navigator open-type="redirect" class="li" url="/pages/contact-me/index">Contact</navigator>
+        <navigator open-type="redirect" class="li" url="/pages/about/index">About</navigator>
+    </view>
+</view>

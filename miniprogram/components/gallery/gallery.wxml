@@ -1,0 +1,10 @@
+<view class="galleries">
+    <view class="gallery" wx:key="title" wx:for="{{data}}">
+        <view class="wrap">
+            <view class="layer"></view>
+            <image class="image" src="{{item.image}}" mode="cover"></image>
+        </view>
+        <text class="title">{{item.title}}</text>
+        <text class="desc">{{item.description}}</text>
+    </view>
+</view>

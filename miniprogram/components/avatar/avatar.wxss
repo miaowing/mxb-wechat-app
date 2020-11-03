@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.header .avatar {
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+}
+
+.header .nav {
+    display: flex;
+    padding: 0;
+}
+
+.header .nav .li {
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-left: 20px;
+}

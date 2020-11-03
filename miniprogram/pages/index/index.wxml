@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container" xmlns:wx="">
+    <avatar src="{{meta.avatar.publicUrl}}"></avatar>
+    <banner title="{{banner.content}}" button="Contact Me" catchbuttontap="bindAvatarTap"></banner>
+    <gallery data="{{galleries}}"></gallery>
+</view>

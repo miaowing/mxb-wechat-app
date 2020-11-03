@@ -1,0 +1,8 @@
+<view class="banner simple" wx:if="{{type === 'simple'}}">
+    <text class="title">{{title}}</text>
+    <button class="button" bindtap="onTap" wx:if="{{button}}">{{button}}</button>
+</view>
+<view class="banner normal" wx:if="{{type === 'normal'}}">
+    <text class="title">{{title}}</text>
+    <text class="content">{{content}}</text>
+</view>

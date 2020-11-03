@@ -1,0 +1,46 @@
+.banner {
+    padding: 20px;
+}
+
+.banner.normal {
+    text-align: center;
+    min-height: 380px;
+    background-color: #493b8a;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 36px;
+    color: white;
+    display: grid;
+    align-content: center;
+    position: relative;
+    padding: 18px;
+    overflow: hidden;
+}
+
+.banner.simple .title {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.banner.normal .title {
+    text-align: center;
+    margin: 0 auto 0.5rem auto;
+    line-height: 1.3;
+    font-size: 30px;
+}
+
+.banner.normal .content {
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 0;
+}
+
+.banner .button {
+    border-radius: 5px;
+    color: #757575;
+    border: 1px solid #dddddd;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 20px 0 10px;
+}

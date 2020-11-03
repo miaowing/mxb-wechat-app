@@ -1,0 +1,33 @@
+<!--index.wxml-->
+<view class="container" xmlns:wx="">
+    <avatar src="{{meta.avatar.publicUrl}}"></avatar>
+    <banner type="normal" title="{{banner.title}}" content="{{banner.content}}"></banner>
+    <view class="form">
+        <text class="title">Send me a Message</text>
+        <form bindsubmit="onSubmit">
+            <input name="name"
+                   value="{{name}}"
+                   class="input"
+                   type="text"
+                   cursor-spacing="20"
+                   confirm-type="done"
+                   placeholder="Your Name*"/>
+            <input name="email"
+                   value="{{email}}"
+                   class="input"
+                   type="text"
+                   cursor-spacing="20"
+                   confirm-type="done"
+                   placeholder="Email Address*"/>
+            <textarea name="message"
+                      value="{{message}}"
+                      class="input"
+                      placeholder="Message*"
+                      cursor-spacing="20"
+                      auto-height="true"
+                      confirm-type="done">
+            </textarea>
+            <button class="button" form-type="submit" loading="{{loading}}">Submit</button>
+        </form>
+    </view>
+</view>
